@@ -3,19 +3,14 @@ package fr.traqueur.solrac.dynamite;
 import fr.traqueur.solrac.SolracDynamite;
 import fr.traqueur.solrac.dynamite.exceptions.DynamiteNoExistException;
 import fr.traqueur.solrac.dynamite.exceptions.DynamiteWrongMaterialException;
-import net.kyori.adventure.text.Component;
-import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Egg;
-import org.bukkit.entity.Player;
 import org.bukkit.entity.Projectile;
 import org.bukkit.event.entity.ProjectileHitEvent;
-import org.bukkit.event.player.PlayerEggThrowEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.projectiles.ProjectileSource;
 
 public class DynamiteManager {
 

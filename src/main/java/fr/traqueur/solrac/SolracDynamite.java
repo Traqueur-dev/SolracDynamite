@@ -7,8 +7,6 @@ import fr.traqueur.solrac.dynamite.listeners.DynamiteListener;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.io.File;
-
 public final class SolracDynamite extends JavaPlugin {
 
     private DynamiteManager dynamiteManager;
